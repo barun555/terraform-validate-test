@@ -5,5 +5,8 @@ terraform {
 provider "azurerm" {
   features {}
 }
-# test change
-# Test workflow
+
+resource "azurerm_resource_group" "rg" {
+  name     = "test-rg-demo"
+  location = "East US"
+}
