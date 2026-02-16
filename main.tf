@@ -10,3 +10,4 @@ resource "azurerm_resource_group" "rg" {
   name     = "test-rg-demo"
   location = "East US"
 }
+# test changes
